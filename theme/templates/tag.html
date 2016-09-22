@@ -9,11 +9,11 @@
     <dd><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></dd>
     <dd>{{ article.summary }}</dd>
     {% if article.tags %}
-    {% for tag in article.tags %}
     <dd>
+    {% for tag in article.tags %}
       <a class="tag" href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>
-    </dd>
     {% endfor %}
+    </dd>
     {% endif %}
 {% endfor %}
 
