@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="{{ DEFAULT_LANG }}">
+<head>
+  <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/hypepat256.png">
+  <link rel="mask-icon" href="/pin_tab.svg" color="#393F4C">
+  <link href="/theme/style.css" rel="stylesheet">
+  {% if FEED_ATOM %}
+  <link href="/{{ FEED_ATOM }}" type="application/rss+xml" title="RSS" />
+  {% endif %}
+  {% if FEED_RSS %}
+  <link href="/{{ FEED_RSS }}" type="application/rss+xml" title="RSS" />
+  {% endif %}
+  {% block meta %}{% endblock meta %}
+  {% block twitter %}{% endblock twitter %}
+</head>
+<body>
+  <header class="center">
+    <h1 id="site-title" class="dark-red"><a href="{{ SITEURL }}" class="tag">hypepat</a></h1>
+    <h2 id="site-author">by PAT GAFFNEY</h2>
+    {% block navigation %}
+    <nav>
+      <ul>
+        <li><a href="/archives.html" class="blue-tag">archive</a></li>
+        <li><a href="/projects.html" class="blue-tag">projects</a></li>
+        <li><a href="/about.html" class="blue-tag">about</a></li>
+      </ul>
+    </nav>
+      {% endblock navigation %}
+  </header>
+  <section class="container">
+    {% block content %}
+    {% endblock %}
+  </section>
+  <footer>
+    <p class="center">
+      caffeinated thoughts, ridiculous opinions &amp; broken hacks by 
+      <a href="/about.html" class="blue-tag">pat gaffney</a>
+    </p>
+    <p class="center">
+      <a href="{{ FEED_RSS }}" class="blue-tag">RSS</a>
+      <a href="{{ TWITTER_URL }}" class="blue-tag">twitter</a>
+      <a href="{{ EMAIL_URL }}" class="blue-tag">email</a>
+      <a href="{{ GITHUB_URL }}" class="blue-tag">github</a>
+    </p>
+    <p class="center">
+      <a href="/acknowledgments.html" class="blue-tag">Acknowledgements</a>
+    </p>
+  </footer>
+	<script type="text/javascript">
+	  var _gauges = _gauges || [];
+	  (function() {
+	    var t   = document.createElement('script');
+	    t.type  = 'text/javascript';
+	    t.async = true;
+	    t.id    = 'gauges-tracker';
+	    t.setAttribute('data-site-id', '560a1cb75dd0532d340065bc');
+	    t.setAttribute('data-track-path', 'http://track.gaug.es/track.gif');
+	    t.src = 'http://track.gaug.es/track.js';
+	    var s = document.getElementsByTagName('script')[0];
+	    s.parentNode.insertBefore(t, s);
+	  })();
+	</script>
+</body>
+</html>

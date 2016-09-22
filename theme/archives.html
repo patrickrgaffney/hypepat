@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="article-title center"><a href="#" class="blue-tag">archive</a></h1>
+
+<!-- {% for month, articles in date_year|groupby('date.month')|sort(reverse=NEWEST_FIRST_ARCHIVES) %} -->
+{% for article in articles %}
+  <dl>
+    <dt>{{ article.date|strftime("%b %d, %Y") }}</dt>
+    <dd><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></dd>
+    <dd>{{ article.summary }}</dd>
+    {% if article.tags %}
+    {% for tag in article.tags %}
+    <dd>
+      <a class="tag" href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>
+    </dd>
+    {% endfor %}
+    {% endif %}
+{% endfor %}
+<!-- {% endfor %} -->
+
+{% endblock %}

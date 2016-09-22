@@ -1,0 +1,246 @@
+/**
+ * styles.css -- hypepat.com theme
+ *
+ * @author      Pat Gaffney <pat@hypepat.com>
+ * @date        2016-09-22
+ * @modified    2016-09-22
+ *******************************************************************/
+ 
+
+/*******************************************************************
+ * @section Main Styles
+ *******************************************************************/
+
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    line-height: 1.4;
+    font-family: "Trebuchet MS";
+    font-size: 18px;
+    color: #2D2D2D;
+    background-color: #E7E7E7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Avenir Next", "Avenir", sans-serif;
+    margin: 5px 0 20px 0;
+}
+
+h1 { font-size: 32px; }
+
+h2 {
+    font-size: 24px;
+    font-style: italic;
+    border-bottom: 1px solid #a5a5a5;
+}
+
+h3 { font-size: 21px; }
+
+hr {
+    height: 1px;
+    color: #A5A5A5;
+    background: #A5A5A5;
+    font-size: 0;
+    border: 0;
+    margin: 15px 0;
+}
+
+img {
+    text-align: center;
+    height: auto;
+    width: 100%; 
+}
+
+figcaption {
+    font-size: 14px;
+    font-style: italic;
+    text-align: center;
+}
+
+blockquote {
+    margin: 0 50px;
+    padding: 0 25px;
+    border: 1px solid #A5A5A5;
+    background-color: #CCCCCC;
+    font-style: italic;
+}
+
+@media (max-width: 850px) {
+    blockquote { 
+        margin: 0 25px;
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 550px) {
+    blockquote { margin: 0 10px; }
+}
+
+/*******************************************************************
+ * @section Layout Styles
+ *******************************************************************/
+
+header { 
+    background-color: #A5A5A5;
+    padding: 20px 0 5px 0;
+    border-bottom: 1px solid #999999;
+    margin-bottom: 25px;
+}
+
+footer { 
+    background-color: #A5A5A5;
+    padding: 20px 0 5px 0;
+    border-top: 1px solid #999999;
+    margin-top: 25px;
+}
+
+div.content {
+    padding: 25px 10px;
+    width: 700px;
+    margin: auto;
+}
+
+@media (max-width: 700px) {
+	div.content { 
+        width: 100%;
+        border-left: none;
+        border-right: none;
+    }
+}
+
+nav ul {
+    margin: auto;
+    max-width: 700px;
+    padding: 5px;
+    list-style: none;
+}
+
+nav ul li { display: inline-block; }
+
+div.article-footer {
+    padding: 10px 50px;
+    background-color: #CCCCCC;
+    border: 1px solid #A5A5A5;
+}
+
+div.article-footer h4 { margin: 0; }
+
+@media (max-width: 850px) {
+    div.article-footer { padding: 10px 25px; }
+}
+
+@media (max-width: 550px) {
+    div.article-footer { 
+        font-size: 14px;
+        padding: 10px 10px;
+        line-height: 2;
+    }
+}
+
+dl {
+    margin: 2em 0;
+    padding: 0;
+}
+
+dl dt {
+    position: relative;
+	width: 6em;
+	font-style: italic;
+    float: left;
+}
+
+dl dd {
+    border-left: 1px solid #A5A5A5;
+	margin: 0 0 0 7em;
+	padding: 0 0 .5em .5em;
+}
+
+
+/*******************************************************************
+ * @section Inline Style Classes
+ *******************************************************************/
+
+h1#site-title  { font-size: 48px; }
+h2#site-author { font-size: 24px; }
+
+.center { text-align: center; }
+.right  { float: right; }
+.left   { float: left; }
+
+.green      { color: #99CC99; }
+.purple     { color: #CC99CC; }
+.gray       { color: #999999; }
+.red        { color: #F2777A; }
+.orange     { color: #F99157; }
+.yellow     { color: #FFCC66; }
+.aqua       { color: #66CCCC; }
+.blue       { color: #6699CC; }
+.dark-green { color: #7BA47B; }
+.dark-blue  { color: #416298; }
+.dark-red   { color: #C05F62; }
+.dark-gray  { color: #6E6E6E; }
+
+.italic { font-style: italic; }
+
+a {
+    color: #6699CC;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+a:hover, a:focus {
+    text-decoration: underline;
+}
+
+a.tag {
+    color: #FBFBFB;
+    padding: 2px 10px;
+    margin: 0px 2px;
+    border: 1px solid #C05F62;
+    background-color: #F2777A;
+}
+
+a.tag:hover, a.tag:focus {
+    text-decoration: none;
+    background-color: #C05F62;
+}
+
+a.blue-tag {
+    color: #FBFBFB;
+    padding: 2px 10px;
+    margin: 0px 2px;
+    border: 1px solid #416298;
+    background-color: #6699CC;
+}
+
+a.blue-tag:hover, a.blue-tag:focus {
+    text-decoration: none;
+    background-color: #416298;
+}
+
+code {
+    font-family: "Menlo", "Lucida Console", monospace;
+    background-color: #CCCCCC;
+    border: 1px solid #A5A5A5;
+    padding: 1px 4px;
+    font-size: 17px;
+}
+
+pre {
+    font-size: 17px;
+    padding: 10px 10px;
+    font-family: "Menlo", "Lucida Console", monospace;
+    background-color: #2D2D2D;
+    margin: 0;
+    overflow-x: scroll;
+}
+
+pre code {
+    background-color: inherit;
+    color: #CCCCCC;
+    border: none;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
