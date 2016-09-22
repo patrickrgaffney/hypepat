@@ -136,6 +136,9 @@ div.article-footer h4 { margin: 0; }
         padding: 10px 10px;
         line-height: 2;
     }
+    nav ul li {
+        line-height: 2;
+    }
 }
 
 dl {
@@ -156,9 +159,7 @@ dl dd {
 	padding: 0 0 .5em .5em;
 }
 
-dl dd p {
-    margin: 0;
-}
+dl dd p { margin: 0; }
 
 
 /*******************************************************************
@@ -198,6 +199,7 @@ a:hover, a:focus {
 }
 
 a.tag {
+    white-space: nowrap;
     color: #FBFBFB;
     padding: 2px 10px;
     margin: 0px 2px;
@@ -211,6 +213,7 @@ a.tag:hover, a.tag:focus {
 }
 
 a.blue-tag {
+    white-space: nowrap;
     color: #FBFBFB;
     padding: 2px 10px;
     margin: 0px 2px;
