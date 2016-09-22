@@ -3,9 +3,6 @@
   {{ super() }}
   
 {% block meta %}
-  {% if article.category %}
-  <meta name="category" content="{{ article.category }}">
-  {% endif %}
   {% for tag in article.tags %}
   <meta name="keywords" content="{{ tag }}">
   {% endfor %}
@@ -46,8 +43,8 @@
       <h4>
           Posted on {{ article.date|strftime("%B %d, %Y") }} 
           {% if article.tags %}
-          {% for tag in article.tags %}
           in 
+          {% for tag in article.tags %}
           <a class="tag" href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>
           {% endfor %}
           {% endif %}

@@ -7,7 +7,7 @@
   <link rel="shortcut icon" href="/favicon.ico">
   <link rel="apple-touch-icon" href="/hypepat256.png">
   <link rel="mask-icon" href="/pin_tab.svg" color="#393F4C">
-  <link href="/theme/style.css" rel="stylesheet">
+  <link href="/theme/styles.css" rel="stylesheet">
   {% if FEED_ATOM %}
   <link href="/{{ FEED_ATOM }}" type="application/rss+xml" title="RSS" />
   {% endif %}
@@ -31,7 +31,7 @@
     </nav>
       {% endblock navigation %}
   </header>
-  <section class="container">
+  <section class="content">
     {% block content %}
     {% endblock %}
   </section>

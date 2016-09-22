@@ -95,14 +95,14 @@ footer {
     margin-top: 25px;
 }
 
-div.content {
+.content {
     padding: 25px 10px;
     width: 700px;
     margin: auto;
 }
 
 @media (max-width: 700px) {
-	div.content { 
+	.content { 
         width: 100%;
         border-left: none;
         border-right: none;
@@ -154,6 +154,10 @@ dl dd {
     border-left: 1px solid #A5A5A5;
 	margin: 0 0 0 7em;
 	padding: 0 0 .5em .5em;
+}
+
+dl dd p {
+    margin: 0;
 }
 
 
