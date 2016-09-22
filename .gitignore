@@ -6,6 +6,7 @@ pip-selfcheck.json
 .Python
 __pycache__
 output/
+*.pid
 
 [macOS]
 .DS_Store
