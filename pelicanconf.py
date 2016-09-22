@@ -37,8 +37,8 @@ TIMEZONE = 'America/Chicago'
 # THEME
 #####################################################################
 
-# Absolute path to theme folder
-THEME = '/Users/patrickrgaffney/Code/hypepat/theme'
+# Path to theme folder
+THEME = 'theme'
 
 # Ignore pre-made theme directives.
 DISPLAY_PAGES_ON_MENU = False
@@ -65,7 +65,7 @@ PATH = 'content'
 
 # I'm not use categories for this site -- only tags.
 USE_FOLDER_AS_CATEGORY = False
-DEFAULT_CATEGORY = ''
+DEFAULT_CATEGORY = 'Misc'
 REVERSE_CATEGORY_ORDER = False
 
 # If summary metadata is not set, it will default to first 50 words.
