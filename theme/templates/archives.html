@@ -3,8 +3,7 @@
 {% block content %}
 <h1 class="article-title center"><a href="#" class="blue-tag">archive</a></h1>
 
-{% for year, date_year in dates|groupby( 'date.year' )|sort  %}
-{% for article in date_year %}
+{% for article in dates %}
   <dl>
     <dt>{{ article.date|strftime("%b %d, %Y") }}</dt>
     <dd><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></dd>
@@ -16,7 +15,6 @@
     {% endfor %}
     </dd>
     {% endif %}
-{% endfor %}
 {% endfor %}
 
 {% endblock content %}
