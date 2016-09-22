@@ -1,5 +1,4 @@
 Title: About
-Author: Pat Gaffney
 Status: published
 
 I'm Pat Gaffney, an undergraduate student studying Computer Science at the [University of Missouri - St. Louis][UMSL].

@@ -1,5 +1,4 @@
 Title: Acknowledgments
-Author: Pat Gaffney
 Status: published
 
 During the development of this site I was able to use quite a few open source projects.  I owe a lot to their ingenuity -- each of them have saved me hours of attempting to hack together a half-assed solution.
@@ -8,8 +7,6 @@ During the development of this site I was able to use quite a few open source pr
 - All content was written in [Markdown][md], all thanks to the [Most High][gruber].
 	- Footnotes, fenced code blocks, and abbreviations from [PHP Markdown Extra][md_extra].
 - Syntax Highlighting is powered by [Pygments][pygments].
-
-A sincere thank you to the developers who spent time working on these projects.
 
 
 [pelly]: http://getpelican.com
