@@ -28,7 +28,6 @@ Of these, **pinned tabs** is the most user-facing feature, and it adds some addi
 Pinned tabs in Safari work similarly to Chrome or Firefox.  Open up a tab in Safari, pin it to your tab bar, and it will remain active in the background.  This is most useful for sites that you routinely visit, and would rather keep open and running on the left side of your tab bar.  There is currently no shortcut for this functionality, but you can command-click your tab and choose "Pin Tab" or accomplish this via Window → Pin Tab.
 
 ![Pinned Tabs Example][pin-tabs-ex]
-{: .wide }
 
 Once a tab is pinned, you cannot close it.  Go ahead, give it a try.  Nope, `⌘W` just takes you to the first un-pinned tab.  Ixnay on File → Close Window as well, that might close the window, but open up another window and you'll see you didn't get very far.  Well what about `⌘Q`?  Surely if I quit the damn application all these pinned things are gone.  Negative, now this is just getting annoying.
 

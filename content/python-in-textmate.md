@@ -110,11 +110,11 @@ Using these settings files we can pin down the exact location of our python inte
 
 [^locally]: *Locally* meaning "usually inside your current working directory", or otherwise specified when you created the virtual environment.  Unless of course, you're using [`virtualenvwrapper`][venv-wrap], in which case "usually inside a hidden folder in your home directory."
 
-[^path]: If you are getting a `$PATH` related error still, you probably need to update your path variable.  Depending on which login shell you prefer, you can probably update the `$PATH` in your [startup files][startup].
-
 [^error]: If you didn't get an error here, that's fine.  It just means you didn't uncheck your `TM_PYTHON` variable earlier.  You can continue along just the same.
 
 [^brew]: I am keeping `/usr/local/bin` in my `$PATH` because I use homebrew to install programs, and that's where it installs them.  If you are using [MacPorts][macports] (then switch to homebrew...) then you will use `$PATH:/opt/local/bin`.
+
+[^path]: If you are getting a `$PATH` related error still, you probably need to update your path variable.  Depending on which login shell you prefer, you can probably update the `$PATH` in your [startup files][startup].
 
 [mate]: http://macromates.com
 [mate-bundles]: http://manual.macromates.com/en/bundles#bundles
