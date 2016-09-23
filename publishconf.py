@@ -15,8 +15,8 @@ from pelicanconf import *
 SITEURL = 'http://hypepat.com'
 RELATIVE_URLS = False
 
-FEED_ATOM = 'feeds/atom.xml'
-FEED_RSS = None
+FEED_ATOM = None
+FEED_RSS = 'feed.rss'
 FEED_MAX_ITEMS = 10
 FEED_ALL_RSS = None
 FEED_ALL_ATOM = None
