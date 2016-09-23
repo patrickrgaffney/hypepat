@@ -10,3 +10,6 @@ output/
 
 [macOS]
 .DS_Store
+
+Makefile
+public_html/
