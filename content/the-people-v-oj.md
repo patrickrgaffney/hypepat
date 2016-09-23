@@ -13,9 +13,7 @@ The series doesn't open with a bang, though.  The first episode stutters, in lar
 
 I stuck it out though, in large part to the [rave reviews][metacritic], and by the time that Bronco hits the 405 in episode two, I was down the rabbit-hole.  Then, in an ultimate balance of the scales, we are blessed with Courtney B. Vance as Johnnie Cochran.  Vance is so good he makes you forget *JUUUUUUIIIIICE* ever existed.  The screen literally brightens with his presence; he unleashes a beast in some of the courtroom scenes that would make Aaron Sorkin cry.
 
-Sarah Paulson is also particularly stellar as Marcia Clark; her *centric*-episode *Marcia, Marcia, Marcia* is a standout.  She lets it all hang out--rage, tears, love, and cigarettes. [^auto]  Paulson and Vance's battles are some of the best I have ever seen on television. [^lost]  I would watch the two of them sell blenders.
-
-[^auto]: This is also the title of my forthcoming tell-all, *Ultra Patbeams: Rage, Tears, Love, & Cigarettes*.
+Sarah Paulson is also particularly stellar as Marcia Clark; her *centric*-episode *Marcia, Marcia, Marcia* is a standout.  Paulson and Vance's battles are some of the best I have ever seen on television. [^lost]  I would watch the two of them sell blenders.
 
 [^lost]: I would safely put the two of them in the [Jack/Locke][lost] and [Josh/Donna][west wing] tier of TV tandems.
 
