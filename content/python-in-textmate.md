@@ -77,11 +77,11 @@ Lets see a simple example:
 
 <div class="highlight">
 <pre>
-<span class="k">TM_PYTHON </span><span class="o">= <span class="s">"</span><span class="se">${CWD}</span><span class="s">/venv/bin/python"</span>
-<span class="k">excludeDirectoriesInBrowser </span><span class="o">= <span class="s">"{__pycache__,include,lib,bin}"</span>
-<span class="k">includeFilesInBrowser </span><span class="o">= <span class="s">"{.gitignore}"</span>
+<span class="k">TM_PYTHON </span><span class="o">= </span><span class="s">"</span><span class="se">${CWD}</span><span class="s">/venv/bin/python"</span>
+<span class="k">excludeDirectoriesInBrowser </span><span class="o">= </span><span class="s">"{__pycache__,include,lib,bin}"</span>
+<span class="k">includeFilesInBrowser </span><span class="o">= </span><span class="s">"{.gitignore}"</span>
 
-<span class="o">[ </span><span class="l">source.python<span class="o"> ]</span>
+<span class="o">[ </span><span class="sx">source.python</span><span class="o"> ]</span>
 <span class="k">softTabs </span><span class="o">= <span class="bp">true</span>
 <span class="k">tabSize  </span><span class="o">= <span class="m">4</span>
 </pre>
