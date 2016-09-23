@@ -1,7 +1,7 @@
 Title: Acknowledgments
 Status: published
 
-During the development of this site I was able to use quite a few open source projects.  I owe a lot to their ingenuity -- each of them have saved me hours of attempting to hack together a half-assed solution.
+During the development of this site I was able to use quite a few open source projects.  I owe a lot to their ingenuity &mdash; each of them have saved me hours of attempting to hack together a half-assed solution.
 
 - Site was built using [Pelican][pelly], built by [Justin Mayer][justin_mayer].
 - All content was written in [Markdown][md], all thanks to the [Most High][gruber].
