@@ -242,6 +242,7 @@ pre {
     padding: 10px 10px;
     font-family: "Menlo", "Lucida Console", monospace;
     background-color: #2D2D2D;
+    color: #CCCCCC;
     margin: 0;
     overflow-x: scroll;
 }
@@ -273,11 +274,10 @@ a.footnote-ref:focus {
  * @section Pygments Syntax Highlighting
  *******************************************************************/
 
-.highlight .hll     { background-color: #ffffcc }
 .highlight .c       { color: #999999 } /* Comment */
 .highlight .err     { color: #C05F62; background-color: #FFAAAA } /* Error */
-.highlight .k       { color: #CC99CC; font-weight: bold } /* Keyword */
-.highlight .o       { color: #CCCCCC } /* Operator */
+.highlight .k       { color: #CC99CC; } /* Keyword */
+.highlight .o       { color: #66CCCC } /* Operator */
 .highlight .p       { color: #CCCCCC; }
 .highlight .ch      { color: #999999 } /* Comment.Hashbang */
 .highlight .cm      { color: #999999 } /* Comment.Multiline */
