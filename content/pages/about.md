@@ -3,7 +3,6 @@ Status: published
 
 I'm Pat Gaffney, an undergraduate student studying Computer Science at the [University of Missouri - St. Louis][UMSL].
 
-
 ### About hypepat
 
 I have been sitting on this URL for a while now, not really sure what to make of it.  I really wanted a simple website with the ability to publish blog posts on topics that interest me, as a way to focus some of my ramblings that refuse to be contained within [140 characters][twitter].
