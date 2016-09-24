@@ -273,7 +273,7 @@ a.footnote-ref:focus {
 /*******************************************************************
  * @section Pygments Syntax Highlighting
  *******************************************************************/
-
+div.highlight       { margin: 1em 0;}
 .highlight .c       { color: #999999 } /* Comment */
 .highlight .err     { color: #C05F62; background-color: #FFAAAA } /* Error */
 .highlight .k       { color: #CC99CC; } /* Keyword */
