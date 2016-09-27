@@ -106,7 +106,7 @@ GITHUB_PELICAN_URL = 'https://github.com/getpelican/'
 #####################################################################
 
 # Folder to put output .html files
-OUTPUT_PATH = 'public_html'
+OUTPUT_PATH = 'hypepat.com'
 
 # List of directories to find 'pages', relative to $PATH
 PAGE_PATHS = ['pages']
