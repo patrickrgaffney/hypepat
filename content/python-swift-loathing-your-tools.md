@@ -27,15 +27,15 @@ NameError: name 'run_one_line' is not defined
 
 That nonsense will fill your terminal faster than you can even hit `Control-D`. It could almost be a game &mdash; count the number of `NameError` dialogs, the lower number wins. I call it... `NameError` golf.
 
-Well what's going on here? If you go all the way back to the top of what is now the longest terminal session in history &mdash; back to when you typed in `swift` &mdash; you will see the `Traceback`. Ahh, it appears [LLDB][lldb] runs some Python script when starting the Swift REPL. And somewhere in that file an attempt is made to load the `six` module.
+Well what's going on here? If you go all the way back to the top of what is now the longest terminal session in history &mdash; back to when you typed in `swift` &mdash; you will see the first `Traceback`. Ahh, it appears [LLDB][lldb] runs some Python script when starting the Swift REPL. And somewhere in that file an attempt is made to load the `six` module.
 
-Well what the hell is the `six` module, and why do I care?
+What the hell is the `six` module, and why do I care?
 
 The `six` module &mdash; and now I'm just going to quote from [the package site][six] &mdash; "provides simple utilities for wrapping over differences between Python 2 and Python 3."
 
 Yes, that's right. The culprit is a module that makes it easier to write Python 2 code. Ughhhh.
 
-### Fixing This "Problem"
+## Fixing This "Problem"
 
 The reason I am getting this error message &mdash; in case you already haven't guessed &mdash; is because I have Python 2.7.12 installed. It's from homebrew. I'm fairly sure that I got it back before 2.7.10 and it's just been updating itself everytime I `brew update; brew upgrade`.
 
