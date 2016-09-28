@@ -1,4 +1,5 @@
 Title: Python & Swift: Loathing Your Tools
+Date: 2016-09-28
 Tags: swift, python, macos
 Slug: python-swift-loathing-your-tools
 Status: published

@@ -1,4 +1,5 @@
 Title: Two Shells and A Prompt
+Date: 2016-09-24
 Tags: bash, zsh, git
 Slug: two-shells-one-prompt
 Status: published
