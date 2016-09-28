@@ -17,7 +17,7 @@ Swift reads very *cleanly* --- almost like pseudocode.  I have spent the last fe
 
 I love the idea of getting in on the ground floor of something --- potentially shaping the idioms that come out of this community in the next few years.  When I started learning Python, this was the biggest struggle for me.  I had rather basic experience in C and Java, and it seemed like there were all these *gotchas* to writing Python code.  Somehow everyone knew the ins-and-outs of `for-in` loops, and I'm over here writing index variables.  Later I realized there was a [pythonic][pythonic] way of doing things.  Swift doesn't really have this yet, and so far it seems like [one of those good problems to have][marlo].
 
-### What A Time To Be Alive
+## What A Time To Be Alive
 
 All of this is a means to an end, and I'm afraid I have ulterior motives. I'm attempting to teach myself Cocoa development. [^cocoa]  I've been using Macs for 7 years now, and I want to try my hand at some GUI application development.  I'm a little tired of building command-line scripts, no matter how useful they are.
 

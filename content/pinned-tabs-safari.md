@@ -23,7 +23,7 @@ By far, the [most][content1] [talked][content2] [about][content3] component of S
 
 Of these, **pinned tabs** is the most user-facing feature, and it adds some additional markup.  This is something [Firefox][firefox-tabs] and [Chrome][chrome-tabs] have had for awhile now, and it comes to Safari with a few idiosyncrasies you will want to familiarize yourself with.
 
-### The Gist
+## The Gist
 
 Pinned tabs in Safari work similarly to Chrome or Firefox.  Open up a tab in Safari, pin it to your tab bar, and it will remain active in the background.  This is most useful for sites that you routinely visit, and would rather keep open and running on the left side of your tab bar.  There is currently no shortcut for this functionality, but you can command-click your tab and choose "Pin Tab" or accomplish this via Window → Pin Tab.
 
@@ -33,7 +33,7 @@ Once a tab is pinned, you cannot close it.  Go ahead, give it a try.  Nope, `⌘
 
 The only way to close a tab, once pinned, is to un-pin it.  You can accomplish this via command-click, or venture back to Window → Unpin Tab.
 
-### The Implementation
+## The Implementation
 
 On Chrome and Firefox, the pinned tabs use the websites [favicon][favicon] as its placeholder image in their respective tab bars.  But this is Apple, and similar to the [Web Clip icon][web-clip], they want you to add another `link` tag to your page header.  
 

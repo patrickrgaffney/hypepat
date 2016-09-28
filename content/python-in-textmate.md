@@ -9,7 +9,7 @@ The true dominance of [TextMate][mate] lies in its [bundles][mate-bundles].  No 
 
 TextMate ships with a [Python bundle][python-bundle], and it contains a multitude of *already* useful commands. [^commands]  But, alas, it's "Run Script" command, invoked with `⌘R`, refuses to cooperate with me.  TextMate chooses to use the default installation of Python that [ships with OS X][osx-py].  To get specific, this is version 2.7.10 on El Capitan.  This is a problem because I have decided to [forgo living in the past][python-2-3], and otherwise embrace the future that is Python 3.
 
-### #!/use/the/shebang
+## #!/use/the/shebang
 
 TextMate will parse the first line of your Python script for a [shebang][shebang] sequence.  If found, it will attempt to call that interpreter when you run your script.  I have installed Python 3 using [homebrew][brew], so the binary is in my `/usr/local/bin` folder.  Lets set up a simple script and test this:
 
@@ -28,7 +28,7 @@ Excellent, it worked.  It did everything I wanted:
 
 But, this is not very pragmatic.  We shouldn't have to rely on the shebang line to find the interpreter.  Surely TextMate provides a way to find the interpreter I want, on an application-wide basis.
 
-### Rage Against the Defaults
+## Rage Against the Defaults
 
 First some background: TextMate uses [environment variables][mate-envs] to provide context to its various scripts and commands, including those in bundles.  [**Dynamic variables**][mate-d-envs] are defined by TextMate and provide the current configuration of the application. [^dynamic-envs]  [**Static variables**][mate-s-envs] are defined by the user in Preferences → Variables and give application-wide support to commands and snippets.  Finally, [**Project dependent variables**][mate-pd-envs] are defined by the user in their project configuration file, and exist only for snippets and commands executed in the context of that project.
 
@@ -44,7 +44,7 @@ Instead, lets assign a value to `TM_PYTHON`.  Static variables are assigned in P
 
 Now, go back and disable (uncheck) the static variable `TM_PYTHON` in Preferences → Variables, and lets try something perhaps a little more elegant.
 
-### A Product of the Environment
+## A Product of the Environment
 
 In most cases manually changing the value of `TM_PYTHON` is not the most elegant solution, as we are limiting ourselves to the use of only one interpreter.  And considering the *vast* majority of Python development is done in [virtual environments][venv], this is not an option.
 
@@ -65,7 +65,7 @@ Fortunately, we can assign our `$PATH` variable to be recognized in TextMate.  V
 
 Now TextMate is dynamically pointing at the first Python 3 interpreter in our `$PATH`.  This is okay, but it isn't a great solution.  For example, if we were to edit our `$PATH`, perhaps by entering a `virtualenv`, TextMate would have no idea.  Thus, we have more work to do.
 
-### Configuring the Configuration
+## Configuring the Configuration
 
 Exit: frustration, enter: [TextMate preferences][tm-prefs]!  TextMate allows us to create project-specific settings under the umbrella of a `.tm_properties` file.  You may remember "project dependent variables" from eariler.  These are just what we need to make our solution virtual-environment-proof.
 
