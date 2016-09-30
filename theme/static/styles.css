@@ -67,7 +67,7 @@ blockquote {
     font-style: italic;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 700px) {
     blockquote { 
         margin: 0 25px;
         padding: 0 20px;
@@ -102,14 +102,6 @@ footer {
     margin: auto;
 }
 
-@media (max-width: 700px) {
-	.content { 
-        width: 100%;
-        border-left: none;
-        border-right: none;
-    }
-}
-
 nav ul {
     margin: auto;
     max-width: 700px;
@@ -128,8 +120,13 @@ div.article-footer {
 
 div.article-footer h4 { margin: 0; }
 
-@media (max-width: 850px) {
-    div.article-footer { padding: 10px 25px; }
+@media (max-width: 700px) {
+	div.article-footer { padding: 10px 25px; }
+	.content { 
+        width: 100%;
+        border-left: none;
+        border-right: none;
+    }
 }
 
 @media (max-width: 550px) {
@@ -142,6 +139,7 @@ div.article-footer h4 { margin: 0; }
     }
 }
 
+/* Dictionary lists used for index/archive articles list. */
 dl {
     margin: 2em 0;
     padding: 0;
