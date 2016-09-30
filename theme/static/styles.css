@@ -3,7 +3,7 @@
  *
  * @author      Pat Gaffney <pat@hypepat.com>
  * @date        2016-09-22
- * @modified    2016-09-22
+ * @modified    2016-09-30
  *******************************************************************/
  
 
@@ -224,6 +224,11 @@ a.blue-tag:hover, a.blue-tag:focus {
     text-decoration: none;
     background-color: #416298;
 }
+
+header .tag,
+header .blue-tag,
+footer .tag,
+footer .blue-tag { line-height: 1.4; }
 
 code {
     font-family: "Menlo", "Lucida Console", monospace;
