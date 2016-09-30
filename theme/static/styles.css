@@ -134,9 +134,6 @@ div.article-footer h4 { margin: 0; }
         font-size: 14px;
         padding: 10px 10px;
     }
-    nav ul li {
-        line-height: 2;
-    }
 }
 
 /* Dictionary lists used for index/archive articles list. */
@@ -205,6 +202,7 @@ a.tag {
     margin: 0px 2px;
     border: 1px solid #C05F62;
     background-color: #F2777A;
+	line-height: 2;
 }
 
 a.tag:hover, a.tag:focus {
@@ -219,6 +217,7 @@ a.blue-tag {
     margin: 0px 2px;
     border: 1px solid #416298;
     background-color: #6699CC;
+	line-height: 2;
 }
 
 a.blue-tag:hover, a.blue-tag:focus {
