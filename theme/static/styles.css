@@ -16,7 +16,7 @@
 body {
     margin: 0;
     line-height: 1.4;
-    font-family: "Trebuchet MS";
+    font-family: "Trebuchet MS", -apple-system, BlinkMacSystemFont, sans-serif;
     font-size: 18px;
     color: #2D2D2D;
     background-color: #E7E7E7;
