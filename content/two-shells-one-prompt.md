@@ -30,7 +30,7 @@ This is no good. So my decision is made for me &mdash; if I am worth my weight i
 
 ## bash and macOS
 
-When you launch the Terminal on <del>OS X</del> macOS, you are greeted with a bash prompt. The problem is, this software is roughly 10 years old. For reasons have to do with [licensing][license], Apple continues to ship version 3.2 with macOS. Meanwhile bash marches on &mdash; version 4.4 was released a week ago.
+When you launch the Terminal on <del>OS X</del> macOS, you are greeted with a bash prompt. The problem is, this software is roughly 10 years old. For reasons having to do with [licensing][license], Apple continues to ship version 3.2 with macOS. Meanwhile bash marches on &mdash; version 4.4 was released a week ago.
 
 Luckily this is a solvable problem. [Homebrew][brew] exists, it's awesome, and it's easy:
 
