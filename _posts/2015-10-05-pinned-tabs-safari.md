@@ -75,4 +75,4 @@ That's it!  Drop that `SVG` in your root directory, add that tag to your page, a
 [favicon]: https://en.wikipedia.org/wiki/Favicon
 [sketch]: http://www.sketchapp.com
 
-[pin-tabs-ex]: /images/pinned_tabs.png
+[pin-tabs-ex]: /assets/pinned_tabs.png

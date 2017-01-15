@@ -84,8 +84,8 @@ Lets see a simple example:
 <span class="k">includeFilesInBrowser </span><span class="o">= </span><span class="s">"{.gitignore}"</span>
 
 <span class="o">[ </span><span class="sx">source.python</span><span class="o"> ]</span>
-<span class="k">softTabs </span><span class="o">= <span class="bp">true</span>
-<span class="k">tabSize  </span><span class="o">= <span class="m">4</span>
+<span class="k">softTabs </span><span class="o">= </span><span class="bp">true</span>
+<span class="k">tabSize  </span><span class="o">= </span><span class="m">4</span>
 </pre>
 </div>
 
@@ -142,5 +142,5 @@ Using these settings files we can pin down the exact location of our python inte
 [tm-defaults]: http://wiki.macromates.com/Reference/FolderSpecificSettings
 [venv-wrap]: http://virtualenvwrapper.readthedocs.org/en/latest/
 
-[hello]: /images/hello_hypepat.png
-[tm-path-error]: /images/mate_path_error.png
+[hello]: /assets/hello_hypepat.png
+[tm-path-error]: /assets/mate_path_error.png

@@ -45,6 +45,6 @@ Just look at those pound signs. [^hashtags]  Now *that* is a font worthy of a he
 [pt-serif]: http://brick.im/fonts/ptserif/
 [drawer]: https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/Drawers/Drawers.html
 
-[the_martian]: /images/the_martian_headings.png
-[themes-settings]: /images/markdown_headings_settings.png
-[updated_martian]: /images/updated_martian_headings.png
+[the_martian]: /assets/the_martian_headings.png
+[themes-settings]: /assets/markdown_headings_settings.png
+[updated_martian]: /assets/updated_martian_headings.png
