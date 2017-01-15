@@ -1,5 +1,8 @@
-Title: Projects
-Status: published
+---
+title: Projects
+layout: page
+permalink: /projects
+---
 
 ## patdown
 
@@ -20,12 +23,6 @@ My personal collection of dotfiles is hosted on [Github][dotfiles]. They are eve
 - [Github][dotfiles]
 - [*Two Shells and a Prompt*][bash] article
 
-## Stopwatch.app
-
-[Stopwatch.app][stopwatch] is a *kind-of* feature complete clone of the Stopwatch app for iOS. It implements all of the features that ship in the iOS standard application. The app is written in Swift 3 and built in XCode 8.0.
-
-- [Github][stopwatch]
-
 
 [md]: http://daringfireball.net/projects/markdown/
 [cm]: http://commonmark.org
@@ -33,4 +30,3 @@ My personal collection of dotfiles is hosted on [Github][dotfiles]. They are eve
 [nbapy]: https://github.com/patrickrgaffney/NBA-CLI
 [dotfiles]: https://github.com/patrickrgaffney/dotfiles
 [bash]: http://hypepat.com/2016/two-shells-one-prompt.html
-[stopwatch]: https://github.com/patrickrgaffney/Stopwatch.app

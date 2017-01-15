@@ -1,5 +1,8 @@
-Title: Acknowledgments
-Status: published
+---
+title: Acknowledgments
+layout: page
+permalink: /acknowledgements
+---
 
 During the development of this site I was able to use quite a few open source projects.  I owe a lot to their ingenuity &mdash; each of them have saved me hours of attempting to hack together a half-assed solution.
 

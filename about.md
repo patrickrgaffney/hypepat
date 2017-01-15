@@ -1,7 +1,6 @@
 ---
 title: About
 layout: page
-published: true
 permalink: /about
 ---
 
