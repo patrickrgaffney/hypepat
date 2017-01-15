@@ -1,9 +1,11 @@
-Title: TextMate's Markdown Headings
-Date: 2015-10-26 23:46
-Tags: textmate, markdown, editors
-Slug: textmates-markdown-headings
-Status: published
-Summary: Tinkering with the way TextMate renders markdown heading elements inside the editor.
+---
+title: TextMate's Markdown Headings
+layout: post
+date: 2015-10-26 23:46
+tags: textmate, markdown, editors
+published: true
+summary: Tinkering with the way TextMate renders markdown heading elements inside the editor.
+---
 
 One of the things I initially disliked about TextMate's [Markdown bundle][markdown] is the way it handles headings inside the editor.  I don't mind the *largeness* of the elements -- these are headings, chances are they are going to be large when rendered on a website or published in a document.
 

@@ -1,9 +1,11 @@
-Title: Pinned Tabs in Safari 9
-Date: 2015-10-05 21:50
-Tags: safari, el capitan
-Slug: pinned-tabs-safari
-Status: published
-Summary: Update your website to work with Pinned Tabs in Safari 9.
+---
+title: Pinned Tabs in Safari 9
+layout: post
+date: 2015-10-05 21:50
+tags: safari, el capitan
+published: true
+summary: Update your website to work with Pinned Tabs in Safari 9.
+---
 
 [Safari 9.0][safari] shipped last week with the release of [El Capitan][el-cap].  This version is largely a [feature release][safari-rel-notes] -- last year Safari got it's root canal, now it's time for a cleaning.
 

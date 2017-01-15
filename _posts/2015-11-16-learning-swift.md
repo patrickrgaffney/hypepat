@@ -1,9 +1,11 @@
-Title: Learning Swift
-Date: 2015-11-16 20:33
-Tags: swift, cocoa
-Slug: learning-swift
-Status: published
-Summary: Getting the ball rolling with Swift, or at least making an attempt.
+---
+title: Learning Swift
+layout: post
+published: true
+date: 2015-11-16 20:33
+tags: swift, cocoa
+summary: Getting the ball rolling with Swift — or at least making an attempt.
+---
 
 I started working through Apple's [*The Swift Programming Language*][swift-book] about a month ago, and I fell into a groove with Swift almost immediately.  Writing Swift feels familiar --- almost like I'm writing in some intermediate language between C and Python.
 

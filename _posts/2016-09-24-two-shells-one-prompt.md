@@ -1,9 +1,11 @@
-Title: Two Shells and A Prompt
-Date: 2016-09-24
-Tags: bash, zsh, git
-Slug: two-shells-one-prompt
-Status: published
-Summary: Lessons learned from ditching zsh, coming home to bash, and writing a bash prompt.
+---
+title: Two Shells and A Prompt
+layout: post
+date: 2016-09-24
+tags: bash, zsh, git
+published: true
+summary: Lessons learned from ditching zsh, coming home to bash, and writing a bash prompt.
+---
 
 I recently made the switch back to [bash][bash] after a long spell with [zsh][zsh]. I'm a little conflicted, but there were three driving factors in my breakup with zsh:
 

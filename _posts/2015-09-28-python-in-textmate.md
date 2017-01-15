@@ -1,9 +1,11 @@
-Title: Python in TextMate 2
-Date: 2015-09-28 18:08
-Tags: python, textmate, virtualenv, editors
-Slug: python-in-textmate
-Status: published
-Summary: Get your Python virtual environments working in TextMate 2.
+---
+title: Python in TextMate 2
+layout: post
+date: 2015-09-28 18:08
+tags: python, textmate, virtualenv, editors
+published: true
+summary: Get your Python virtual environments working in TextMate 2.
+---
 
 The true dominance of [TextMate][mate] lies in its [bundles][mate-bundles].  No matter what language you prefer to spend your time writing, chances are, there exists a bundle that is feature-packed with the idioms, syntax, and completions of that language.
 

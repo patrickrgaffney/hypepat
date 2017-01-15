@@ -1,9 +1,11 @@
-Title: Python & Swift: Loathing Your Tools
-Date: 2016-09-28
-Tags: swift, python, macos
-Slug: python-swift-loathing-your-tools
-Status: published
-Summary: Yet another reason why we should all stop using Python 2.7.x.
+---
+title: "Python & Swift: Loathing Your Tools"
+layout: post
+date: 2016-09-28
+tags: swift, python, macos
+published: true
+summary: Yet another reason why we should all stop using Python 2.7.x.
+---
 
 Here is a fun way to waste some time: ensure that you have Python 2.7.12 [^python] installed on your Mac via homebrew or whatever, then launch the swift REPL. You can do this now by just typing `swift`. Your welcome.
 
