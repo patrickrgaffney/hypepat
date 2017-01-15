@@ -2,7 +2,7 @@
 title: "Python & Swift: Loathing Your Tools"
 layout: post
 date: 2016-09-28
-tags: swift, python, macos
+tags: [swift, python, macos]
 published: true
 summary: Yet another reason why we should all stop using Python 2.7.x.
 ---

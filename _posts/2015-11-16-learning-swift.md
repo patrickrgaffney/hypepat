@@ -3,7 +3,7 @@ title: Learning Swift
 layout: post
 published: true
 date: 2015-11-16 20:33
-tags: swift, cocoa
+tags: [swift, cocoa]
 summary: Getting the ball rolling with Swift — or at least making an attempt.
 ---
 

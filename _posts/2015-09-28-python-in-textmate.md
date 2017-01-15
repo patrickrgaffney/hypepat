@@ -2,7 +2,7 @@
 title: Python in TextMate 2
 layout: post
 date: 2015-09-28 18:08
-tags: python, textmate, virtualenv, editors
+tags: [python, textmate, virtualenv, editors]
 published: true
 summary: Get your Python virtual environments working in TextMate 2.
 ---

@@ -2,7 +2,7 @@
 title: Two Shells and A Prompt
 layout: post
 date: 2016-09-24
-tags: bash, zsh, git
+tags: [bash, zsh, git]
 published: true
 summary: Lessons learned from ditching zsh, coming home to bash, and writing a bash prompt.
 ---

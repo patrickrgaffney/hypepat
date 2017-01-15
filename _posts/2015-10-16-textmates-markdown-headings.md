@@ -2,7 +2,7 @@
 title: TextMate's Markdown Headings
 layout: post
 date: 2015-10-26 23:46
-tags: textmate, markdown, editors
+tags: [textmate, markdown, editors]
 published: true
 summary: Tinkering with the way TextMate renders markdown heading elements inside the editor.
 ---
