@@ -11,6 +11,7 @@ url: "http://hypepat.com"
 twitter_username: patrickrgaffney
 github_username:  patrickrgaffney
 timezone: America/Chicago
+permalink: /:year/:title
 
 
 #########################################################################
