@@ -1,0 +1,34 @@
+{% include head.html %}
+<body>
+  <header class="center">
+    <h1 id="site-title" class="dark-red"><a href="{{ site.url }}" class="tag">hypepat</a></h1>
+    <h2 id="site-author">by PAT GAFFNEY</h2>
+    <nav>
+      <ul>
+        <li><a href="/about.html" class="blue-tag">about</a></li>
+        <li><a href="/archives.html" class="blue-tag">archive</a></li>
+        <li><a href="/projects.html" class="blue-tag">projects</a></li>
+        <li><a href="/topics.html" class="blue-tag">topics</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="content">
+    {{ content }}
+  </section>
+  <footer>
+    <p class="center">
+      caffeinated thoughts, ridiculous opinions &amp; broken hacks by 
+      <a href="/about.html" class="blue-tag">pat gaffney</a>
+    </p>
+    <p class="center">
+      <a href="{{ FEED_RSS }}" class="blue-tag">RSS</a>
+      <a href="{{ TWITTER_URL }}" class="blue-tag">twitter</a>
+      <a href="{{ EMAIL_URL }}" class="blue-tag">email</a>
+      <a href="{{ GITHUB_URL }}" class="blue-tag">github</a>
+    </p>
+    <p class="center">
+      <a href="/acknowledgments.html" class="blue-tag">Acknowledgements</a>
+    </p>
+  </footer>
+</body>
+</html>

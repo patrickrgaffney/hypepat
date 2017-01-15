@@ -1,0 +1,16 @@
+---
+layout: default
+---
+{% for post in site.posts %}
+  <dl>
+    <dt>{{ post.date | date: "%b %-d, %Y" }}</dt>
+    <dd><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></dd>
+    <dd>{{ post.summary }}</dd>
+    {% if post.tags %}
+    <dd>
+    {% for tag in post.tags %}
+      <a class="tag" href="{{ tag.url | relative_url }}">{{ tag }}</a>
+    {% endfor %}
+    </dd>
+    {% endif %}
+{% endfor %}

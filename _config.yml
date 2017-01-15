@@ -25,8 +25,6 @@ kramdown:
   syntax_highlighter: rouge
   parse_block_html: false
 
-theme: minima
-
 gems:
   - jekyll-feed
 

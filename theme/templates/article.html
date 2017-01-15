@@ -1,39 +1,6 @@
 {% extends "base.html" %}
 
   {{ super() }}
-  
-{% block meta %}
-  {% for tag in article.tags %}
-  <meta name="keywords" content="{{ tag }}">
-  {% endfor %}
-	{% if article.author %}
-  <meta name="author" content="{{ article.author }}">
-	{% endif %}
-  {% if article.summary %}
-  <meta name="description" content="{{ article.summary|striptags }}">
-  {% endif %}
-{% endblock meta %}
-
-{% block twitter %}
-  <meta name="twitter:site" content="@patrickrgaffney">
-  {% if article.title %}
-  <meta name="twitter:title" content="{{ SITENAME }} &raquo; {{ article.title }}">
-  {% endif %}
-  {% if article.summary %}
-  <meta name="twitter:description" content="{{ article.summary|striptags }}">
-  {% endif %}
-  {% if article.image %}
-  <meta name="twitter:image" content="{{ SITEURL }}{{ article.image }}">
-  <meta name="twitter:card" content="summary_large_image">
-  {% else %}
-  <meta name="twitter:image" content="{{ SITEURL }}/hypepat256.png">
-  <meta name="twitter:card" content="summary">
-  {% endif %}
-{% endblock twitter %}
-	
-{% if article.title %}
-  {% block title %}{{ SITENAME }} &raquo; {{ article.title }}{% endblock title %}
-{% endif %}
 
 {% block content %}
 <article>
