@@ -237,7 +237,6 @@ This sounds really convoluted &mdash; and it is &mdash; so my advice would be to
 #   11. directory writable to others, without sticky bit: eH
 export CLICOLOR=1
 export LSCOLOR='exfxgxbxcxaHaAcAcHeAeH'
-
 ```
 
 ## A Brief Tour Through the ANSI Color Codes
@@ -352,7 +351,7 @@ export PS1='\#. \u@\h in \w at \A\n$ '
 
 On my local machine, this will give me the following prompt:
 
-```bash
+```
 17. patrickrgaffney@patmac in ~/Code/dotfiles at 16:44
 $ 
 ```
@@ -373,7 +372,7 @@ export PS1='\#. \u@\h in \w at \A\n$ '
 
 This fixes my nested directory issue:
 
-```bash
+```
 3. patrickrgaffney@patmac in ~/.../.git/objects/info at 17:00
 $
 ```
@@ -387,13 +386,13 @@ We already know how the ANSI color codes work, so this should be no big deal. Tr
 export PS1=''
 
 # Add cyan command-number: '\#'
-PS1+=$'\e[1;36m\#.\e[0m '
+PS1+=$'\e[1;36m\#.\e[0m'
 
 # Add bold username: '\u'
-PS1+=$'\e[1m\u\e[0m'
+PS1+=$' \e[1m\u\e[0m'
 
 # Add bold-blue hostname: '\h'
-PS1+=$'\e[1;34m@\h\e[0m in '
+PS1+=$'\e[1;34m@\h\e[0m in'
 
 # Add bold-red working directory: '\w'
 PS1+=$'\e[1;31m\w\e[0m'
