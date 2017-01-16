@@ -8,11 +8,21 @@ email: pat@hypepat.com
 author: Pat Gaffney
 baseurl: ""
 url: "http://hypepat.com"
-twitter_username: patrickrgaffney
-github_username:  patrickrgaffney
+twitterurl: https://twitter.com/patrickrgaffney
+githuburl:  https://github.com/patrickrgaffney
+emailurl: mailto:pat@hypepat.com
 timezone: America/Chicago
 permalink: /:year/:title
 
+
+#########################################################################
+# Tags Collection
+#########################################################################
+
+# collections:
+#     single_tags:
+#         output: true
+#         permalink: /tag/:path
 
 #########################################################################
 # Build Settings & Variables
