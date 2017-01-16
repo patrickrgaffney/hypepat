@@ -105,7 +105,7 @@ Before I go all ANSI-Color-Codes on the ridiculous default prompt, lets modify s
 
 ### The `set` Builtin
 
-In true UNIX fashion, you can use set in two different ways:
+In true UNIX fashion, you can use `set` in two different ways:
 
 1. The *readable* way: Use `set -o <option-name>` to toggle settings on or off.
 2. The *unreadable* way: Use `set -x` to turn settings on, `set +x` to turn settings off.
