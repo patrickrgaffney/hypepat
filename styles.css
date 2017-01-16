@@ -236,6 +236,7 @@ code {
     border: 1px solid #A5A5A5;
     padding: 1px 4px;
     font-size: 16px;
+    white-space: nowrap;
 }
 
 pre {
@@ -260,14 +261,17 @@ pre code {
 
 /* footnotes */
 sup { vertical-align: text-top; }
-a.footnote-ref {
+sup a,
+a[rev=footnote] {
     color: #FBFBFB;
     padding: 1px 3px;
     border: 1px solid #C05F62;
     background-color: #F2777A;
 }
-a.footnote-ref:hover, 
-a.footnote-ref:focus { 
+sup a:hover,
+a[rev=footnote]:hover,
+sup a:focus,
+a[rev=footnote]:focus { 
     text-decoration: none;
     background-color: #C05F62;
 }
