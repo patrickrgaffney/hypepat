@@ -19,10 +19,10 @@ permalink: /:year/:title
 # Tags Collection
 #########################################################################
 
-# collections:
-#     single_tags:
-#         output: true
-#         permalink: /tag/:path
+collections:
+    topics:
+        output: true
+        permalink: /topics/:path
 
 #########################################################################
 # Build Settings & Variables

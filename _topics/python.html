@@ -1,0 +1,23 @@
+---
+title: python
+layout: page
+---
+
+{% assign site_tags = site.tags | sort | compact %}
+{% for tag in site_tags %}
+    {% if tag[0] == page.title %}
+        {% for article in tag[1] %}
+          <dl>
+            <dt>{{ article.date | date: "%b %-d, %Y" }}</dt>
+            <dd><a href="{{ post.url | relative_url }}">{{ article.title | escape }}</a></dd>
+            <dd>{{ article.summary }}</dd>
+            {% if article.tags %}
+            <dd>
+            {% for tag in article.tags %}
+              <a class="tag" href="{{ tag.url | relative_url }}">{{ tag }}</a>
+            {% endfor %}
+            </dd>
+            {% endif %}
+        {% endfor %}
+    {% endif %}
+{% endfor %}

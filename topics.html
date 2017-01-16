@@ -5,7 +5,7 @@ layout: page
 {% assign site_tags = site.tags | sort | compact %}
 {% for tag in site_tags %}
 <h1 class="article-title center">
-  <a href="/{{ tag.url }}" class="tag">{{ tag[0] }}</a>
+  <a href="/topics/{{ tag[0] }}" class="tag">{{ tag[0] }}</a>
   &mdash; {{ tag[1] | size }}
 </h1>
 {% endfor %}
