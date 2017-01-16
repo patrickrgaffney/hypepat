@@ -10,7 +10,7 @@ layout: default
           {% if page.tags %}
           in 
           {% for tag in page.tags %}
-          <a class="tag" href="{{ tag.url | relative_url }}">{{ tag }}</a>
+          <a class="tag" href="/topics/{{ tag | replace: " ", "-" }}">{{ tag }}</a>
           {% endfor %}
           {% endif %}
       </h4>
