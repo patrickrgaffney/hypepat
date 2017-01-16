@@ -236,7 +236,6 @@ code {
     border: 1px solid #A5A5A5;
     padding: 1px 4px;
     font-size: 16px;
-    white-space: nowrap;
 }
 
 pre {
@@ -256,6 +255,7 @@ pre code {
     font-size: 16px;
     margin: 0;
     padding: 0;
+    white-space: pre;
 }
 
 /* footnotes */
