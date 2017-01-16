@@ -13,6 +13,7 @@ githuburl:  https://github.com/patrickrgaffney
 emailurl: mailto:pat@hypepat.com
 timezone: America/Chicago
 permalink: /:year/:title
+destination: hypepat.com
 
 
 #########################################################################
