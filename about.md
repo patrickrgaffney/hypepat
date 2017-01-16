@@ -4,26 +4,46 @@ layout: page
 permalink: /about
 ---
 
-I'm Pat Gaffney, an undergraduate student studying Computer Science at the [University of Missouri - St. Louis][UMSL].
+I'm Pat Gaffney, a software developer in St. Louis. I studied computer science at a small college *you've never heard of* — while there I earned a pathetic but acceptable GPA. Now I build full-stack apps for a giant agricultural company.
 
 ### About hypepat
 
-One day I'll do a write-up on the odyssey that was the making of this site, but in case you were wondering, this site was:
+The term *hypepat* is kind of a joke — "hi pat". But I have been known to be unusually energetic, mostly about the wrong things.
 
-- Designed on a Macbook.
-- Coded in [TextMate][mate].
-- Build using [Pelican][pelly], the Python static site engine.
-- Purchased and managed through [Hover][hover].
-- Hosted on a VPS at [Digital Ocean][digitalocean].
+As far as the site itself, some facts:
 
-To get in touch with me, find me on [Twitter][twitter] or send me an [email][email_subj].
+- designed and not-tested on a 2016 TouchBar Macbook Pro.
+- coded in [TextMate][mate].
+- syntax highlighting via [Pygments][pygments].
+- less markup, more *markdown* thanks to the [most high][gruber].
+- built using [Jekyll][jekyll], the infamous Ruby static site engine.
+- domain purchased and managed through [Hover][hover].
+- hosted on a [FreeBSD][bsd] VPS at [Digital Ocean][digitalocean].
 
-*[VPS]: Virtual Private Server
+### Elsewhere
 
-[UMSL]: http://umsl.edu
-[twitter]: https://twitter.com/patrickrgaffney
+I exist elsewhere on the internet:
+
+- [@patrickrgaffney on Github][github]
+- [@hypepat on lobste.rs][lobsters]
+- [@patrickrgaffney on Twitter][twitter]
+- [@hypepat on letterboxd][letterboxd]
+- [@hypepat on GoodReads][goodreads]
+
+Or, you could [email me][mailto] (but please don't).
+
+Thanks for reading.
+
 [mate]: https://macromates.com
-[pelly]: http://blog.getpelican.com/
+[jekyll]: http://jekyllrb.com
+[pygments]: http://pygments.org
+[gruber]: http://daringfireball.net/projects/markdown/
 [hover]: https://hover.com/9ruS0o2u
 [digitalocean]: https://www.digitalocean.com/?refcode=51e4a0710dcc
-[email_subj]: mailto:pat@hypepat.com
+[mailto]: mailto:pat@hypepat.com
+[bsd]: https://www.freebsd.org
+[github]: https://github.com/patrickrgaffney
+[twitter]: https://twitter.com/patrickrgaffney
+[letterboxd]: http://letterboxd.com/hypepat/
+[goodreads]: https://www.goodreads.com/hypepat
+[lobsters]: https://lobste.rs/u/hypepat
