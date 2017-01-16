@@ -18,8 +18,6 @@ One day I'll do a write-up on the odyssey that was the making of this site, but 
 
 To get in touch with me, find me on [Twitter][twitter] or send me an [email][email_subj].
 
-My resume is also [available as a PDF][pdf].
-
 *[VPS]: Virtual Private Server
 
 [UMSL]: http://umsl.edu
@@ -29,4 +27,3 @@ My resume is also [available as a PDF][pdf].
 [hover]: https://hover.com/9ruS0o2u
 [digitalocean]: https://www.digitalocean.com/?refcode=51e4a0710dcc
 [email_subj]: mailto:pat@hypepat.com
-[pdf]: http://hypepat.com/images/resume.pdf
