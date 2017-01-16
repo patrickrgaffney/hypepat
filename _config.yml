@@ -18,12 +18,16 @@ permalink: /:year/:title
 # Build Settings & Variables
 #########################################################################
 
-markdown: kramdown
+markdown: redcarpet
+highlighter: pygments
 
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-  parse_block_html: false
+redcarpet:
+    extensions: [
+        "smart", 
+        "fenced_code_blocks", 
+        "strikethrough",
+        "footnotes"
+    ]
 
 gems:
   - jekyll-feed
