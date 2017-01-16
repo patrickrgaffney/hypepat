@@ -14,7 +14,7 @@ layout: page
             {% if article.tags %}
             <dd>
             {% for tag in article.tags %}
-              <a class="tag" href="/topics/{{ tag | replace: " ", "-" }}.html | relative_url">{{ tag }}</a>
+              <a class="tag" href="/topics/{{ tag | replace: " ", "-" }}.html">{{ tag }}</a>
             {% endfor %}
             </dd>
             {% endif %}

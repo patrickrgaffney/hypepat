@@ -12,7 +12,7 @@ twitterurl: https://twitter.com/patrickrgaffney
 githuburl:  https://github.com/patrickrgaffney
 emailurl: mailto:pat@hypepat.com
 timezone: America/Chicago
-permalink: /:year/:title
+permalink: /:year/:title.html
 destination: hypepat.com
 
 
@@ -23,7 +23,7 @@ destination: hypepat.com
 collections:
     topics:
         output: true
-        permalink: /topics/:path
+        permalink: /topics/:path.html
 
 #########################################################################
 # Build Settings & Variables
