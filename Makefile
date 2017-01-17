@@ -9,6 +9,7 @@ RSYNC_EXCLUDE=.DS_Store
 
 publish:
 	jekyll build
+	bash tagify.sh
 
 rsync: publish
 	rsync -azP --exclude="$(RSYNC_EXCLUDE)" $(OUTPUTDIR) $(SSH_KEY):$(REMOTEDIR)
