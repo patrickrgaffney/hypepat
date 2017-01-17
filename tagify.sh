@@ -28,7 +28,7 @@ TAGFILES=0
 function check_version {
     local bashversion=${BASH_VERSION:0:1}
     
-    if [[ $bashversion == "3" ]]; then
+    if [[ $bashversion != "4" ]]; then
         echo -e "$BOLD$RED ERROR:$RESET this script requires bash >= 4.0"
         exit 1
     else
