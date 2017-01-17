@@ -6,6 +6,9 @@ SSH_KEY=freebsd
 RSYNC_EXCLUDE=.DS_Store
 
 .PHONY: clean
+	
+preview:
+	jekyll serve --drafts
 
 publish:
 	jekyll build
