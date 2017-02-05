@@ -161,11 +161,11 @@ function remove_duplicates {
     
     for tag in "${oldarray[@]}"
     do
-            if [ ! "${seen[$tag]}" ]
-            then
-                    tags+=("$tag")
-                    seen["$tag"]=1
-            fi
+        if [ ! "${seen[$tag]}" ]
+        then
+            tags+=("$tag")
+            seen["$tag"]=1
+        fi
     done
     echo -e "$BOLD -->$GREEN tags collected:$RESET"
     printf '\t%s\n' "${tags[@]}"
@@ -208,7 +208,7 @@ function create_tag_files {
 #
 # This function is called once for each tag that needs a file. The tag
 # name itself (with spaces) is available as the first parameter: $1. The
-# enter HERE document is written to the file, so it can be changed to 
+# entire HERE document is written to the file, so it can be changed to 
 # suit your needs.
 #
 #########################################################################
